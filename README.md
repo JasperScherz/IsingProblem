@@ -32,6 +32,7 @@ Equations:
 # Implementation
 Data Structures:  
 Should make a representation for vertices and edges  
+for easy operation, maybe have microstate be denoted by number 0 -> (2^N) - 1. Put this into a list removing 0b prefix, and then can transform by 0 = -1.
 Could represent vertices as a list V (integer V_i), i = 0 -> N - 1, V_i = +/- 1  
 edges, list E (integer E1_j, integer E2_k), j,k = indexes of adjacent V  
 would need easy way to generate list of edges, maybe can have it read from a file   
